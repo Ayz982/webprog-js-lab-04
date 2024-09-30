@@ -1,4 +1,4 @@
-/*function generatePassword(length){
+function generatePassword(length){
     let password = "";
     const symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     for (let i = 0; i < length; i++) {
@@ -30,4 +30,4 @@ function generateAndCheckPassword(length = 8) {
     }
 }
 
-generateAndCheckPassword(8);*/
+generateAndCheckPassword(8);
